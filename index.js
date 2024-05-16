@@ -12,7 +12,6 @@ import dotenv from "dotenv"
 const appServer = async () => {
     dotenv.config()
     await dbConection()
-    //console.log(process.env)
     const server = express()
     
     server.use(express.json())
