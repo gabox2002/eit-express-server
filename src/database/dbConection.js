@@ -8,7 +8,7 @@ export const dbConection = async () => {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
             }
-        )
+        );
         // const mongoDB = await mongoose.connect(
         //     "mongodb+srv://gabox2002:0giBnjmoeZSYfSzK@eit.qslhwrx.mongodb.net/express-server-1",
         //     {
