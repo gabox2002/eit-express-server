@@ -22,7 +22,7 @@ const appServer = async () => {
     server.use("/api/auth", authRoutes)
     
     //server.listen(PORT, () => console.log("El servidor esta corriendo correctamente en el puerto ", PORT))
-    /server.listen(process.env.PORT, () => console.log("El servidor esta corriendo correctamente en el puerto ", process.env.PORT))
+    server.listen(process.env.PORT, () => console.log("El servidor esta corriendo correctamente en el puerto ", process.env.PORT))
 
 }
 
